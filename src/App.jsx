@@ -22,7 +22,7 @@ function App() {
   
     try {
       // Send data to a mock API (you can replace the URL with your own endpoint)
-      const response = await fetch('https://9d52-2600-387-15-141b-00-5.ngrok-free.app/api/posts', {
+      const response = await fetch('https://aafb-68-228-133-220.ngrok-free.app/api/posts', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
